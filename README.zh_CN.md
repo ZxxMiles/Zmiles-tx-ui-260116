@@ -24,7 +24,7 @@
 ## 安装 & 升级
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/AghayeCoder/tx-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/ZxxMiles/Zmiles-tx-ui-260116/master/install.sh)
 ```
 
 ### SSL证书
@@ -100,7 +100,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/AghayeCoder/tx-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/ZxxMiles/Zmiles-tx-ui-260116/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. 下载压缩包后，执行以下命令安装或升级 x-ui：
@@ -167,7 +167,7 @@ systemctl restart x-ui
       --network=host \
       --restart=unless-stopped \
       --name tx-ui \
-      ghcr.io/aghayecoder/tx-ui:latest
+      ghcr.io/ZxxMiles/Zmiles-tx-ui-260116:latest
    ```
 
 更新至最新版本
