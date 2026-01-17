@@ -21,7 +21,7 @@
 
 **USDT(TON):** ```UQDnwbvFLTm1cUWeUn3FFAKgC35wTno9-zOa_ib6STUVSgYf```
 
-## 安装 & 升级
+## 安装 & 升级==适用ubuntu24，直接运行即可
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/ZxxMiles/Zmiles-tx-ui-260116/master/install.sh)
